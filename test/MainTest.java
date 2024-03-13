@@ -16,4 +16,10 @@ class MainTest {
         int expected = 13;
         assertEquals(expected,Calculadora.suma(num1,num2));
     }
+    @Test void CalcularSuma3(){
+        int num1 = 1;
+        int num2 = 1;
+        int expected = 2;
+        assertEquals(expected,Calculadora.suma(num1,num2));
+    }
 }
