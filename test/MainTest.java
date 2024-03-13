@@ -21,5 +21,10 @@ class MainTest {
         int num2 = 1;
         int expected = 2;
         assertEquals(expected,Calculadora.suma(num1,num2));
+    }@Test void CalcularResta(){
+        int num1 = 6;
+        int num2 = 3;
+        int expected = 3;
+        assertEquals(expected,Calculadora.resta(num1,num2));
     }
 }
