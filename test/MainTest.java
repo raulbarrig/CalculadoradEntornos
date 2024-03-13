@@ -59,5 +59,10 @@ class MainTest {
         int num2 = 2;
         double expected = 2.5;
         assertEquals(expected,Calculadora.division(num1,num2));
+    }@Test void CalcularDivision2(){
+        int num1 = 9;
+        int num2 = 3;
+        int expected = 3;
+        assertEquals(expected,Calculadora.division(num1,num2));
     }
 }
