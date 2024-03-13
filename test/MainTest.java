@@ -26,5 +26,10 @@ class MainTest {
         int num2 = 3;
         int expected = 3;
         assertEquals(expected,Calculadora.resta(num1,num2));
+    }@Test void CalcularResta2(){
+        int num1 = 10;
+        int num2 = 5;
+        int expected = 5;
+        assertEquals(expected,Calculadora.resta(num1,num2));
     }
 }
