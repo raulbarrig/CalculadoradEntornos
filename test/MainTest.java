@@ -48,5 +48,10 @@ class MainTest {
         int num2 = 3;
         int expected = 9;
         assertEquals(expected,Calculadora.multiplicacion(num1,num2));
+    }@Test void CalcularMultiplicacion3(){
+        int num1 = 5;
+        int num2 = 5;
+        int expected = 25;
+        assertEquals(expected,Calculadora.multiplicacion(num1,num2));
     }
 }
