@@ -12,5 +12,9 @@ public class Calculadora {
         resta = (num3 - num4);
         return resta;
     }
+    public static double multiplicacion(double num5,double num6){
+        multiplicacion = (num5 * num6);
+        return multiplicacion;
+    }
 
 }
